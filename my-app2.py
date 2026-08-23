@@ -11,7 +11,7 @@ client = OpenAI()
 
 response = client.responses.create(
     model="gpt-4o-mini",
-    input="What is Agentic AI? Please provide a brief explanation."
+    input="What is Transformer architecture? Please provide a brief explanation."
 )
 
 print("Answer:", response.output_text)
