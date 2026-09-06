@@ -2,6 +2,7 @@
 # It uses the `requests` library to send a POST request to the API endpoint for chat completions. 
 # The program retrieves the OpenAI API key from an environment variable stored in a `.env` file using the `dotenv` library.
 
+# invoke the LLM using REST call
 import requests
 import os
 from dotenv import load_dotenv

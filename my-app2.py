@@ -3,6 +3,7 @@
 # The program retrieves the OpenAI API key from an environment variable stored in a `.env` file using the `dotenv` library. 
 # It sends a prompt asking for a brief explanation of "Agentic AI" and prints the response received from the model.
 
+# invoke the LLM using OpenAI Python client
 from openai import OpenAI
 from dotenv import load_dotenv
 

@@ -4,6 +4,7 @@
 # with the specified model and invokes it with a prompt asking for a brief explanation of "Agentic AI." 
 # Finally, it prints the response received from the model.
 
+# invoke the LLM using LangChain
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
