@@ -4,7 +4,7 @@
 
 from typing import Literal
 from langchain_core.tools import tool
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field # for validating tool inputs
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
